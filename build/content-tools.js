@@ -8131,22 +8131,60 @@
 
   })(ContentTools.Tools.Heading);
 
-  ContentTools.Tools.SmallHeading = (function(_super) {
-    __extends(SmallHeading, _super);
+  ContentTools.Tools.H3SmallHeading = (function(_super) {
+    __extends(H3SmallHeading, _super);
 
-    function SmallHeading() {
-      return SmallHeading.__super__.constructor.apply(this, arguments);
+    function H3SmallHeading() {
+      return H3SmallHeading.__super__.constructor.apply(this, arguments);
     }
 
-    ContentTools.ToolShelf.stow(SmallHeading, 'smallheading');
+    ContentTools.ToolShelf.stow(H3SmallHeading, 'h3SmallHeading');
 
-    SmallHeading.label = 'Subheading';
+    H3SmallHeading.label = 'Subheading';
 
-    SmallHeading.icon = 'subheading';
+    H3SmallHeading.icon = 'subheading';
 
-    SmallHeading.tagName = 'h3';
+    H3SmallHeading.tagName = 'h3';
 
-    return SmallHeading;
+    return H3SmallHeading;
+
+  })(ContentTools.Tools.Heading);
+
+  ContentTools.Tools.H3BigHeading = (function(_super) {
+    __extends(H3BigHeading, _super);
+
+    function H3BigHeading() {
+      return H3BigHeading.__super__.constructor.apply(this, arguments);
+    }
+
+    ContentTools.ToolShelf.stow(H3BigHeading, 'h3BigHeading');
+
+    H3BigHeading.label = 'Heading';
+
+    H3BigHeading.icon = 'heading';
+
+    H3BigHeading.tagName = 'h1';
+
+    return H3BigHeading;
+
+  })(ContentTools.Tools.Heading);
+
+  ContentTools.Tools.H4Heading = (function(_super) {
+    __extends(H4Heading, _super);
+
+    function H4Heading() {
+      return H4Heading.__super__.constructor.apply(this, arguments);
+    }
+
+    ContentTools.ToolShelf.stow(H4Heading, 'h4Heading');
+
+    H4Heading.label = 'Subheading';
+
+    H4Heading.icon = 'subheading';
+
+    H4Heading.tagName = 'h4';
+
+    return H4Heading;
 
   })(ContentTools.Tools.Heading);
 
