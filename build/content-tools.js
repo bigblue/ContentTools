@@ -8138,6 +8138,8 @@
       return SmallHeading.__super__.constructor.apply(this, arguments);
     }
 
+    ContentTools.ToolShelf.stow(SmallHeading, 'smallheading');
+
     SmallHeading.label = 'Subheading';
 
     SmallHeading.icon = 'subheading';

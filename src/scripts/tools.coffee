@@ -361,7 +361,9 @@ class ContentTools.Tools.Subheading extends ContentTools.Tools.Heading
 
 class ContentTools.Tools.SmallHeading extends ContentTools.Tools.Heading
 
-    # Convert the current text block to a subheading (e.g <h2>foo</h2>)
+    # Convert the current text block to a subheading (e.g <h3>foo</h3>)
+    
+    ContentTools.ToolShelf.stow(@, 'smallheading')
 
     @label = 'Subheading'
     @icon = 'subheading'
