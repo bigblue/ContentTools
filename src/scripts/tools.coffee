@@ -359,6 +359,14 @@ class ContentTools.Tools.Subheading extends ContentTools.Tools.Heading
     @icon = 'subheading'
     @tagName = 'h2'
 
+class ContentTools.Tools.SmallHeading extends ContentTools.Tools.Heading
+
+    # Convert the current text block to a subheading (e.g <h2>foo</h2>)
+
+    @label = 'Subheading'
+    @icon = 'subheading'
+    @tagName = 'h3'
+
 
 class ContentTools.Tools.Paragraph extends ContentTools.Tools.Heading
 

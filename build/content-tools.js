@@ -8131,6 +8131,23 @@
 
   })(ContentTools.Tools.Heading);
 
+  ContentTools.Tools.SmallHeading = (function(_super) {
+    __extends(SmallHeading, _super);
+
+    function SmallHeading() {
+      return SmallHeading.__super__.constructor.apply(this, arguments);
+    }
+
+    SmallHeading.label = 'Subheading';
+
+    SmallHeading.icon = 'subheading';
+
+    SmallHeading.tagName = 'h3';
+
+    return SmallHeading;
+
+  })(ContentTools.Tools.Heading);
+
   ContentTools.Tools.Paragraph = (function(_super) {
     __extends(Paragraph, _super);
 
