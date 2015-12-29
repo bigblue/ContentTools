@@ -377,7 +377,7 @@ class ContentTools.Tools.H3BigHeading extends ContentTools.Tools.Heading
 
     @label = 'Heading'
     @icon = 'heading'
-    @tagName = 'h1'
+    @tagName = 'h3'
 
 
 class ContentTools.Tools.H4Heading extends ContentTools.Tools.Heading

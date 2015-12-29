@@ -8163,7 +8163,7 @@
 
     H3BigHeading.icon = 'heading';
 
-    H3BigHeading.tagName = 'h1';
+    H3BigHeading.tagName = 'h3';
 
     return H3BigHeading;
 
